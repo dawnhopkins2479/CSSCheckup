@@ -39,8 +39,6 @@ namespace Komodo_Repos
                 bReturn = AddDeveloper(developer);
                 
             }
-
-
             return bReturn;
         }
 

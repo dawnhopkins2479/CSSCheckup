@@ -55,6 +55,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Komodo_Insurance1\Komodo_Insurance1.csproj">
+      <Project>{e64cdf1a-6b8b-4687-8a73-6307ac7ce1ca}</Project>
+      <Name>Komodo_Insurance1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Komodo_Repos\Komodo_Repos.csproj">
+      <Project>{e82b483d-5a26-496e-8fc1-31e7b01ff3e3}</Project>
+      <Name>Komodo_Repos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

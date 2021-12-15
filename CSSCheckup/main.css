@@ -1,0 +1,27 @@
+body {
+    background-color:mediumseagreen;
+}
+
+.wrapper {
+    border: 10px solid forestgreen;
+}
+
+h1 {
+    color:rgb(187, 132, 31);
+}
+
+h3 {
+    color:teal;
+}
+
+h2 {
+    color:tomato
+}
+
+h1 {
+    text-align: center;
+}
+
+.img src {
+    image-orientation: center;
+}

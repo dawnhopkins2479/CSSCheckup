@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Komodo_Insurance1
 {
-    class MenuTypeEnum
+    enum MenuType
     {
-
-    }
+        MainMenu = 1,
+        DeveloperRepoSubmenu = 2,
+        TeamRepositorySubMenu = 3,
+        HRSubmenu = 4
+    }    
 }
